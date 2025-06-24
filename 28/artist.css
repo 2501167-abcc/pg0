@@ -109,5 +109,10 @@ img{
     margin-left: 50px;
 }
 
+#artist-sec iframe{
+    margin-left: 17px;  
+    float: left; 
+}
+
 
 
