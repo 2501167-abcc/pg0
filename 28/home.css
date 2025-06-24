@@ -82,7 +82,16 @@ p{
     color: #fff;
 }
 
+@media screen and (max-width: 768px) 
 
+  .flex-box {
+
+    flex-direction: column; /* スマホでは縦並び */
+
+    text-align: center;
+
+  }
+ 
 
 
 
