@@ -8,6 +8,9 @@ body{
 .navbar{
     background-color: #000;
     padding:1.75rem 2.5rem ;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 ul{
@@ -77,6 +80,7 @@ a:hover::after{
 .first-sec{
     color: white;
     font-size: large;
+    padding-top:80px;
 }
 
 .first-sec h2{
