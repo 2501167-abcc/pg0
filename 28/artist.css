@@ -114,5 +114,12 @@ img{
     float: left; 
 }
 
+#artist-sec img{
+    margin-left: 17px;  
+    float: left; 
+    width: 30%;
+    height: 11cm;
+    
+}
 
 
