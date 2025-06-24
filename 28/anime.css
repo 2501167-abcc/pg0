@@ -104,3 +104,14 @@ p{
     color: #fff;
     margin-left: 50px;
 }
+@media screen and (max-width: 768px) {
+
+  .flex-box {
+
+    flex-direction: column; 
+
+    text-align: center;
+
+  }
+ 
+
