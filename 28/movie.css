@@ -25,13 +25,6 @@ ul{
     color: #fff;
 }
 
-.nav-link{
-    position: relative;
-    color: #fff;
-    font-weight: bold;
-    padding: 0.25rem 0;
-}
-
 .nav-menu a{
     display: block;
     color: #fff;
@@ -49,6 +42,16 @@ ul{
     width: 0;
 }
 
+a:hover::after{
+    width: 100%;
+}
+
+.nav-link{
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.25rem 0;
+}
 
 .nav-link::after {
   content: '';
@@ -60,9 +63,6 @@ ul{
   background: #fff;
   transition: width 0.3s ease;
 }
-a:hover::after{
-    width: 100%;
-}
 
 .nav-link:hover::after {
   width: 100%;
@@ -72,8 +72,6 @@ a:hover::after{
 .nav-link.current::after {
   width: 100%;
 }
-
-
 
 .first-sec{
     color: white;
@@ -85,35 +83,22 @@ a:hover::after{
     margin-left: 30px;
 }
 
+.first-sec p{
+    margin-left: 50px;
+}
+
 .top1 h2{
     color: #fff;
     margin-top: 50px;
     margin-bottom: 10px;
     margin-left: 30px;
 }
-.first-sec p{
-    margin-left: 50px;
-}
 
-img{
-    width: 37%;
-    box-sizing: border-box;
-}
 .img-div{
     display: flex;
     justify-content: space-evenly;
     padding-top: 10px; padding-bottom: 3px;
     padding-left: 5px; padding-right:5px;
-}
-
-p{
-    color: #fff;
-}
-
-.inyou{
-    display: flex;
-    float: left;
-    justify-content:space-between;
 }
 
 #movie-sec p{
@@ -138,4 +123,13 @@ details p{
 }
 #source{
     text-align: center;
+}
+
+img{
+    width: 37%;
+    box-sizing: border-box;
+}
+
+p{
+    color: #fff;
 }
