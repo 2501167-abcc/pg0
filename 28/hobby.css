@@ -102,6 +102,9 @@ a:hover::after{
     padding-left: 5px; padding-right:5px;
 }
 
+#twitter{
+    margin-left: 870px;
+}
 
 #RPG-sec p{
     color: #fff;
